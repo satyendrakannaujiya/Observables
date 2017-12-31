@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Observables</title>
+	<style>
+		
+		.btn {
+			/*border: 1px solid blue;*/
+			padding: 8px;
+			margin: 8px;
+			min-height: 48px;
+			min-width: 48px;
+		}
+
+		.btn:hover {
+			cursor: pointer;
+		}
+
+		.btn.primary {
+			border: 1px solid var(--pri-clr);
+			background-color: var(--pri-clr-dark);
+			color: var(--sec-clr);
+		}
+
+		.btn.primary:hover {
+			border: 1px solid var(--sec-clr);
+			background-color: var(--sec-clr-dark);
+			color: var(--pri-clr);
+		}	
+
+		.btn.secondary {
+
+		}
+
+		.btn.secondary:hover {
+
+		}
+
+		div.btn-grp {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		}
+		
+
+		div.btn-grp button {
+			flex-grow: 1;
+			
+		}
+
+
+	</style>
+</head>
+<body>
+	<button id="addBtn">Add Value</button>
+
+	
+
+
+	<script src="index.js" type="module"></script>
+</body>
+</html>
